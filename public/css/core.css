@@ -1,0 +1,44 @@
+body {
+  font-size: 7em;
+  background: #121212;
+  font-family: helvetica;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: red;
+  text-transform: uppercase;
+}
+
+div#totals {
+  text-align: center;
+  padding-top: 100px;
+  border-top: 30px solid #000;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+}
+
+li span {
+  display: block;
+  font-size: 0.2em;
+  color: #999;
+}
+
+div#totals.warning {
+  border-color: yellow;
+}
+
+
+div#totals.critical {
+  border-color: red;
+}
+
+div#totals.ok {
+  border-color: green;
+}
