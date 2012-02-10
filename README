@@ -1,0 +1,7 @@
+Screen scraping nagios dashboard that just shows checks in Critical, Warning and OK. Designed for big screens.
+
+Mainly designed for easy running on Heroku, but it's just a small Sinatra application. For configuration set three environment variables:
+
+  NAGIOS_HOST
+  AUTH_USERNAME
+  AUTH_PASSWORD
