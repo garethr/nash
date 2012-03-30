@@ -14,8 +14,7 @@ First install the dependencies with bundler:
 
 Then run the application:
 
-    NAGIOS_HOST=x AUTH_USERNAME=y AUTH_PASSWORD=z bundle exec ruby
-app.rb
+    NAGIOS_HOST=x AUTH_USERNAME=y AUTH_PASSWORD=z bundle exec ruby app.rb
 
 This should bring up a local web server on localhost:4567. Note that the
 username and password are those used to access your Nagios install, as
